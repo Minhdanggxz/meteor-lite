@@ -1,1 +1,16 @@
-
+{
+  "required": true,
+  "package": "com.example.meteorlite.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InGameOverlayRendererMixin",
+    "InGameHudMixin",
+    "BossBarHudMixin",
+    "GameRendererMixin",
+    "WorldMixin",
+    "ParticleManagerMixin",
+    "EntityRenderDispatcherMixin",
+    "BlockEntityRenderDispatcherMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}
